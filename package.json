@@ -1,0 +1,34 @@
+{
+  "name": "pcinfo",
+  "version": "1.0.0",
+  "description": "Get your machine information",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/src/index.js",
+    "test": "jest",
+    "build": "tsc",
+    "test:build": "jest build/*",
+    "prettier": "prettier . --write",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [
+    "PC",
+    "Info"
+  ],
+  "author": "Chuli jimmi Manurung <jimmi.ext@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.28.0",
+    "jest": "^27.0.4",
+    "prettier": "^2.3.1",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "bin": {
+    "pcinfo": "./bin/pcinfo"
+  }
+}
