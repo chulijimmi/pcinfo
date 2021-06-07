@@ -1,5 +1,5 @@
 {
-  "name": "pcinfo",
+  "name": "@catnuxer/pcinfo",
   "version": "1.0.0",
   "description": "Get your machine information",
   "main": "build/index.js",
